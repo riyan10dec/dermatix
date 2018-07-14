@@ -1,0 +1,50 @@
+footer {
+	width: 100%;
+	background: #fff;
+	padding: 15px;
+}
+.vr footer {
+    display: none;
+}
+footer nav {
+    float: right;
+}
+nav {
+	display: block;
+	position: relative;
+	margin-top: 4px;
+}
+nav ul, .socmed {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li, .socmed li {
+    float: left;
+}
+nav ul li a, .socmed li a {
+	display: block;
+	color: #000;
+	padding: 15px 10px;
+}
+
+.icon:before {
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	position: relative;
+	top: 3px;
+}
+
+.icon.icon-facebook:before {
+	background: url(../images/fb.png);
+}
+
+.icon.icon-twitter:before {
+	background: url(../images/tw.png);
+}
+footer img {
+	max-width: 100%;
+}

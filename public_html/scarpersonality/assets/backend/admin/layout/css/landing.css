@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "din";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../../fonts/ff_din_black-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/ff_din_black-webfont.woff2") format("woff2"), url("../../../fonts/ff_din_black-webfont.woff") format("woff"), url("../../../fonts/ff_din_black-webfont.ttf") format("truetype"), url("../../../fonts/ff_din_black-webfont.svg#din_blackregular") format("svg");
+}
+.bg-landing{
+  width:100%;
+  background-size: cover;
+}
+.hero {
+    align-items: flex-end;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+.headline{
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "din",sans-serif;
+  margin-top: auto;
+  font-size: 60px;
+  line-height: 45px;
+  text-align: right;
+}
+.headline b {
+  display: block;
+  font-size: 100px;
+  line-height: 85px;
+  margin-top: auto;
+  text-align: right;
+}
+.hero h1, .hero h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "din",sans-serif;
+}
+.hero h1 {
+    font-size: 100px;
+    line-height: 85px;
+    margin-top: auto;
+}
+.hero h2 {
+    font-size: 60px;
+    line-height: 45px;
+}
+.hero p {
+  font-size: 18px;
+  margin-top: 30px;
+  font-family: "Open Sans",sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 22px;
+  text-align: right;
+}
+.hero .logo {
+    margin-bottom: 50px;
+    margin-top: auto;
+}
+.btn.btn-default {
+    background-color: #d71a2c;
+    border-color: #d71a2c;
+    border-radius: 0;
+    color: #fff;
+    font-weight: bold;
+    min-width: 130px;
+    transition: box-shadow 0s ease 0s;
+}
+.btn {
+    border: 0 none;
+    position: relative;
+    transition: all 0.3s ease 0s !important;
+    white-space: normal;
+}
+.btn {
+    border-radius: 3px;
+    filter: none;
+    line-height: 22px;
+    outline: medium none;
+    padding: 8px 19px;
+    transition: background 0.2s linear 0s, border 0.2s linear 0s, color 0.2s linear 0s;
+    white-space: normal;
+}
+.btn.btn-default:hover {
+    background-color: #fb1b30;
+    border-color: #fb1b30;
+    color: #fff;
+}
+.btn:hover {
+    transition: all 0.3s ease 0s !important;
+}

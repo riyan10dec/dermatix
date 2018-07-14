@@ -1,0 +1,232 @@
+html,body {
+	width: 100%;
+}
+html {
+	font-size: 10px;
+}
+body {	
+  color: #999;
+  font-family: 'Raleway', sans-serif;
+  line-height: 22px;
+  margin: 0;
+  font-size: 14px;
+  background: #eee url(../images/bg.jpg) top center no-repeat;
+  background-size: 1440px;
+  min-height: 100vh;
+}
+body.vr {
+    overflow: auto;
+    background: #fff;
+}
+
+@media (min-width: 1368px){
+
+	body {
+
+		background-size: 110%;
+
+	}
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+	color: #000;
+
+}
+
+a {
+
+	color: #d71b2d;
+
+	transition: all 0.3s;
+
+}
+
+
+
+a:hover, a:focus {
+
+	color: #ab0010;
+
+	text-decoration: none;
+
+}
+
+
+
+a:active {
+
+	color: #ab0010;
+
+	text-decoration: none;
+
+}
+
+
+
+.inner-wrapper {
+
+	max-width: 390px;
+
+	margin: 30px auto 0;
+
+	position: relative;
+
+  	min-height: 100vh;
+
+}
+
+.btn {
+
+	border: 0;
+
+	border-radius: 0;
+
+}
+
+.btn-rounded {
+
+	border-radius: 5px;
+
+}
+
+.btn-default {
+
+	background: #ccc;
+
+}
+
+
+
+.btn-primary {
+
+	background: #d71b2d;
+
+}
+
+.btn-primary:hover,
+
+.btn-primary:focus,
+
+.btn-primary:active,
+
+.btn-primary.active {
+
+	background: #ba0314;
+
+}
+
+
+
+.dif {
+
+	margin: 0 10px;
+
+}
+
+.box {
+
+	max-width: 120px;
+
+  	text-align: left;
+
+  	margin: auto;
+
+}
+
+.form-control {
+
+	height: 30px;
+
+	border-radius: 0;
+
+ 	-webkit-box-shadow: none;
+
+ 	box-shadow: none;
+
+ 	background: #fff !important;
+
+}
+.form-control.input-lg {
+    height: auto;
+}
+/*.form-group {
+
+	margin-bottom: 22px;
+
+}*/
+
+.fileupload {
+
+	text-align: left;
+
+}
+
+.fileupload .thumbnail {
+
+  max-width: 94px;
+
+  max-height: 94px;
+
+}
+
+.fileupload .button {
+
+	display: inline-block;
+
+}
+
+.fileupload .btn {
+
+	padding: 3px 12px;
+
+}
+
+.loader {
+
+	position: absolute;
+
+	background: rgba(255,255,255,.6);
+
+	width: 90%;
+
+	height: 100%;
+
+	color: #000;
+
+	font-size: 24px;
+
+	text-align: center;
+
+	left: 0;
+
+	right: 0;
+
+	margin: auto;
+
+	z-index: 99;
+
+	display: none;
+
+}
+
+.loader span {
+
+	height: 30px;
+
+	width: 30px;
+
+	position: absolute;
+
+	left: 0;
+
+	right: 0;
+
+	margin: auto;
+
+	top: 0;
+
+	bottom: 0;
+
+}

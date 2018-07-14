@@ -1,0 +1,1009 @@
+@media (min-width: 1920px) {
+	.tp-caption.sft.customout.tp-videolayer.start {
+	    left: 35% !important;
+	}
+}
+
+@media (max-width: 1360px) and (min-width: 1280px) {
+	.header:after{
+		display: none;
+	}
+	.selectBox-PWTF{
+		display: inline-block;
+	}
+
+	.btn-PWTF {
+	    margin-top: 0;
+	}
+}
+
+@media (max-width: 1200px) and (min-width: 1020px) {
+	.header:after{
+		display: none;
+	}
+
+	.header .header-wrapper .primary .navbar .navbar-collapse .nav li {
+	    margin: 0 6px;
+	}
+
+	.wtf::before{
+		background-size: 100%;
+		width: 65px;
+		margin-top: 20px;
+	}
+
+	.product {
+	    width: 153px;
+	}
+
+	.imgY, .img-scar{
+		margin: 0 15%;
+	}
+
+	.col20 {
+	    width: 18.7%;
+	}
+
+	.selectBox-PWTF{
+		display: inline-block;
+	}
+
+	.btn-PWTF {
+	    margin-top: 0;
+	}
+
+	#catch-us .wtf::before {
+	    margin-top: 0;
+	}
+
+	.page-header .title{
+		font-size: 30px;
+	}
+
+	.entry-content .read-more{
+		margin-top: 20px;
+	}
+
+	.bgTesti {
+	    max-height: 130px;
+	}
+}
+
+@media (max-width: 1020px) and (min-width: 910px) {
+	.title-updates {
+	    font-size: 30px;
+	}
+
+	.wtf::before{
+		margin: 0 60px;
+	}
+
+	.post .entry-title{
+		font-size: 20px;
+	}
+
+	.product {
+	    width: 116px !important;
+	}
+
+	.bgTesti {
+	    height: 94px !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+	.hidden-top.visible-top .header-wrapper:only-child, .fixed-header.fixed .header-wrapper:only-child {
+	    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+	}
+	.wtf::before {
+	    margin: 0 65px;
+	}
+
+	.product {
+	    width: 116px;
+	}
+
+	.post .entry-title{
+		font-size: 16px;
+	}
+
+	.imgY, .img-scar{
+		margin: 0;
+		width: 100%;
+	}
+
+	.imgY{
+		height: 215px;
+	}
+
+	.col20 {
+    	width: 18.9%;
+	}
+
+	.selectBox-PWTF{
+		display: inline-block;
+	}
+
+	.btn-PWTF {
+	    margin-top: 0;
+	}
+
+	.col768-4{
+		width: 33.33333333%;
+		margin-bottom: 30px;
+	}
+
+	.page-header .title{
+		font-size: 30px;
+	}
+
+	.entry-content .read-more{
+		margin-top: 20px;
+	}
+
+	.post .entry-content {
+	    margin: 0;
+	}
+
+	.blog .post{
+		padding-right: 10px;
+	}
+
+	.col-sm-4.post-tmbn {
+	    padding-right: 0 !important;
+	}
+
+	.qf_i p{
+		padding: 5% 20px !important; 
+	}
+
+	.breadcrumb{
+		padding: 10px 5px;
+	}
+
+	#scar .row .col-sm-4 h3{
+		font-size: 21px;
+	}
+}
+
+@media (max-width: 991px) {
+	
+	/* ---------------------- 
+
+		Header
+
+	------------------------- */
+
+	.header .header-wrapper .primary .navbar .btn-navbar.collapsed:before{
+		display: none;
+	}
+	
+	.header .header-wrapper .primary .navbar .navbar-collapse .nav li{
+		margin: 15px 46px 0 10px;
+	}
+
+	.header .header-wrapper .primary .navbar .navbar-collapse .nav > li > a{
+		background: #fff;
+	}
+
+	.header .header-wrapper .primary .navbar .navbar-collapse .nav > li > a:hover, .header .header-wrapper .primary .navbar .navbar-collapse .nav > li:hover > a{
+		background: #fff;
+		border: none; 
+	}
+
+	.header .header-wrapper .primary .navbar .navbar-collapse .nav li:before{
+		top: -6px;
+	}
+
+	.header .header-wrapper .primary .navbar .navbar-collapse .nav .open-sub{
+		left: auto;
+		right: -55px;
+	}
+
+	.header .header-wrapper .primary .navbar .navbar-collapse .nav > .parent > a, .header .header-wrapper .primary .navbar .navbar-collapse .nav > li.parent:hover > a{
+		background-color: #fff;
+	}
+
+	.header .header-wrapper .primary .navbar .navbar-collapse .nav > .parent.active > a .open-sub span{
+		background-color: #000;
+	}
+
+	.header .header-wrapper .primary .navbar .navbar-collapse .nav > .parent.active > a, .header .header-wrapper .primary .navbar .navbar-collapse .nav > .parent.active:hover > a{
+		background: #F7F7F7;
+		color: #7f7f7f;
+		padding-left: 10px;
+	}
+
+	.header .header-wrapper .primary .navbar .navbar-collapse .nav .sub li a{
+		padding: 0; 
+	}
+
+	/* ---------------------- 
+
+		Slider
+
+	------------------------- */
+
+	.slider.rs-slider .description {
+		top: 80px !important;
+		left: 60px !important;
+	}
+
+	.slider.rs-slider .description > p.subtitle-slider{
+		font-size: 15px;
+		margin-bottom: 0;
+	}
+
+	.slider.rs-slider .description p{
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	
+	.tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption {
+		left: 60px !important;
+	}
+
+	.slider.rs-slider:after{
+		bottom: -36px;
+	}
+
+	.header:after{
+		display: none;
+	}
+	
+	/* ---------------------- 
+
+		Content
+
+	------------------------- */
+	
+	.title-box h1.title, .title-box .h1.title{
+		font-size: 40px;
+	}
+
+	.about-1{
+		padding: 0 15px;
+	}
+
+	.big-services-box div > p.title-art-1{
+		font-size: 18px;
+	}
+
+	.about-icon{
+		height: 130px;
+	}
+
+	.title-updates-h4{
+		padding: 0;
+	}
+
+	.content-of-title-updates{
+		padding: 0;
+	}
+
+	.events > h4{
+		font-size: 20px;
+	}
+
+	.bg-content-about:after{
+		bottom: -36px;
+	}
+
+	.wtf::before{
+		background-position: 50% 0;
+	}
+
+	.wtf{
+		padding: 90% 0 0 0;
+		margin-bottom: 50px;
+	}
+
+	.product{
+		width: 100%
+	}
+
+	.qf_i p{
+		height: 200px;
+	}
+
+	.formula-2 h4 {
+	    margin-top: 15px;
+	}
+
+	.mt-sm20{
+		margin-top: 5px;
+	}
+
+	.blog .post{
+		padding-right: 10px;
+	}
+
+	.qf_i p{
+		padding: 5% 20px; 
+	}
+
+	.imgPclinical{
+		height: 70px;
+	}
+
+	#exc-derma_page-clinical {
+	    padding-right: 15px !important;
+	}
+
+	.showU768{
+		display: block;
+	}
+
+	.inputSearchMobile{
+		margin: 25px 0;
+		padding: 0 10px;
+	}
+
+	.mr-15{
+		margin-right: 15px;
+	}
+}
+
+@media (min-width: 650px) and (max-width: 736px) {
+
+	.wtf{
+		padding: 40px 0 65px 25%;
+	}
+	.wtf::before{
+		left: 6%;
+	}
+
+	.update_i{
+		margin-bottom: 30px;
+	}
+
+	.breadcrumb{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.post-tmbn, .post .entry-meta, .post .entry-content, .post .entry-title{
+		text-align: center;
+	}
+	.post .entry-title {
+	    margin-top: 15px;
+	}
+
+	.cycle-grey{
+		margin: auto;
+	}
+
+	.img-scar{
+		margin: 0 34%;
+	}
+	.col20{
+		width: 18.7%;
+	}
+	.imgY{
+		margin: 0 33%;
+	}
+	.imgPclinical{
+		height: inherit;
+	}
+	.img-clinical{
+		margin-bottom: 30px;
+	}
+	.slider.rs-slider .description,.tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption {
+	    left: 90px !important;
+	}
+
+	.tp-caption.sft.customout.tp-videolayer.start::after{
+		display: none;
+	}
+
+	.tp-caption.sft.customout.tp-videolayer.start {
+	    left: 0px !important;
+	    top: 0 !important;
+	    width: 100% !important;
+	    min-height: 100% !important;
+	}
+
+	.tp-caption.sft.customout.tp-videolayer.start iframe{
+		width: 100% !important;
+		height: 100% !important;
+	}
+	.imgAuto, .imgA6 {
+	    max-width: 200px !important;
+	}
+}
+
+@media (max-width: 640px) {
+	
+	#articles, #stories, #quickfact, #up-events, #events, #article-about-derma, #scar, #excellence{
+		padding-top: 10px;
+		margin-top: -10px;
+	}
+
+	/* ---------------------- 
+
+		Header
+
+	------------------------- */
+
+	
+
+	/* ---------------------- 
+
+		Slider
+
+	------------------------- */
+
+	/*.slider .tp-banner-container .tp-banner ul.tp-revslider-mainul li .elements .description, .tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption{
+		display: none;
+	}*/
+
+	.slider.rs-slider:after{
+	    bottom: -28px;
+	}
+
+	.bg-content-about:after{
+		bottom: -34px;
+	}
+
+	.slider-t{
+		position: absolute;
+		top: 75% !important;
+	}
+
+	.slider.rs-slider .description > p.subtitle-slider {
+	    font-size: 13px;
+	}
+
+	.slider.rs-slider .description,.tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption {
+	    left: 90px !important;
+	}
+
+	.tp-caption.sft.customout.tp-videolayer.start::after{
+		display: none;
+	}
+
+	.tp-caption.sft.customout.tp-videolayer.start {
+	    left: 0px !important;
+	    top: 0 !important;
+	    width: 100% !important;
+	    min-height: 100% !important;
+	}
+
+	.tp-caption.sft.customout.tp-videolayer.start iframe{
+		width: 100% !important;
+		height: 100% !important;
+	}
+
+	/* ---------------------- 
+
+		Content
+
+	------------------------- */
+
+	.bg-content-about{
+		padding: 30px 0;
+	}
+
+	h1.title-updates{
+		font-size: 28px;
+	}
+
+	.read-more{
+		margin-bottom: 50px;
+	}
+
+	#updates {
+	    padding-top: 40px;
+	}
+
+	.header:after{
+		display: none;
+	}
+
+	.blog .post{
+		margin: 40px 0;
+		padding-right: 0; 
+	}
+
+	.page-header h1.title{
+		font-size: 29px;
+	}
+
+	.formula-2 h4 {
+	    margin-top: 25px;
+	}
+
+	.formula-1 h4{
+		margin-top: 10px; 
+	}
+
+	.mt-50 {
+	    margin-top: 30px;
+	}
+
+	.ml-15 {
+	    margin-left: -15px;
+	}
+
+	/*.mt-sm20{
+		margin-top: 20px !important;
+	}*/
+
+	.ml-15 .col-sm-4 a > img {
+	    margin-bottom: 20px;
+	}
+
+	.cycle-grey {
+	    max-width: 350px;
+	    height: 350px;
+	}
+
+	.col20 {
+	    width: 32%;
+	}
+
+	.cycle-grey {
+	    max-width: 250px;
+	    height: 300px;
+	    margin: 0 auto;
+	}
+
+	.ml-15 .row .col-xs-4 > h3{
+		font-size: 22px;
+	}
+
+	.video640{
+	    margin-left: 0;
+	    display: inline-block;
+	}
+
+	.img-scar h3{
+		font-size: 22px;
+	}
+
+	.img640{
+		width: 100%;
+	}
+
+	.caroufredsel_wrapper {
+	    height: 125px !important;
+	}
+
+	.table-responsive{
+		margin-top: 25px;
+	}
+
+	.wtf {
+	    padding: 165px 0 0 0;
+	}
+
+	.title-box .title {
+	    text-align: center;
+	}
+
+	.img-clinical{
+		width: 100%;
+		text-align: center;
+		height: auto;
+		margin-bottom: 30px;
+	}
+
+	.imgPclinical {
+	    width: 120px;
+	    height: auto; 
+	}
+
+	.post-tmbn {
+	    text-align: center;
+	}
+
+	.post-tmbn > img{
+		width: 150px;
+		height: 150px;
+	}
+
+	.product {
+		margin: 0; 
+	}
+
+	.post .entry-title {
+	    font-size: 21px;
+	    margin: 20px 0;
+	}
+
+	.product .product-description{
+		margin-top: 20px;
+	}
+
+	.product .product-name{
+		font-size: 17px;
+	}
+
+	.read-more{
+		font-size: 16px;
+	}
+
+	.post-stories .entry-title {
+	    margin: 15px 0;
+	}
+
+	ul.exc-derma{
+		margin-top: 0px;
+		/*padding: 0 10px 0 20px;*/
+	}
+
+	.img-scar{
+		margin: 0 10%;
+	}
+
+	.post .entry-meta, .post .entry-content, .post .entry-title{
+		text-align: center;
+	}
+
+	.nopadleft{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	.imgY {
+	    margin: 0 34%;
+	}
+
+	.popup-youtube > i{
+		right: 0;
+	}
+
+	.selectBox-PWTF{
+		display: inline-block;
+		width: 77.8% !important;
+	}
+
+	.btn.btn-sm{
+		display: inline-block;
+		margin-top: 0;
+	}
+
+	.form-control {
+	    margin-bottom: 15px;
+	}
+
+	.fileinput-thumbnail{
+		margin-bottom: 0;
+	}
+
+	/* ---------------------- 
+
+		Footer
+
+	------------------------- */
+
+	.social a{
+		width: 10px;
+    	margin: 0 auto;
+	} 
+	
+	.wtf-form{
+		float: none;
+		width: 100%;
+	}
+
+	.wtf:before{
+		background-position: 50% 0;
+		left: 44%;
+	}
+
+	.product{
+		/*max-width: 204px;*/
+	}
+
+	.blog .post {
+    	margin: 0 0 40px;
+	}
+
+	.post .entry-content{
+		margin: 0;
+	}
+
+	.post .entry-content > .read-more{
+		margin-bottom: 20px;
+	}
+
+	.gallery-events{
+		width: 50%;
+		float: left;
+	}
+
+	#footer .footer-bottom .copyright{
+		padding: 0 0 10px;
+	}
+
+	#footer .footer-bottom {
+	    margin: 0; 
+	    padding: 15px 0;
+	}
+
+	#exc-derma_page-clinical{
+		padding-right: 15px;
+	}
+
+	.bgTesti {
+	    height: 158px;
+	    max-height: 158px;
+	}
+
+	.qf_i p{
+		padding: 11% 20px;
+	}
+
+	.ml-15 {
+	    margin-left: 0px;
+	}
+
+	#footer {
+	    margin-top: 25px;
+	}
+
+	.breadcrumb {
+	    padding: 10px 0;
+	}
+
+	._forRight{
+		margin-left: 100% !important; 
+	}
+
+	._forLeft{
+		margin-left: -10px !important;
+	}
+
+	.tp-bullets.hidebullets{
+		opacity: 0;
+	}
+
+	.tparrows.hidearrows{
+		opacity: 1;
+	}
+
+	.pagination-box {
+	    margin: 20px 0;
+	    text-align: center;
+	}
+
+	/*.wrapBtnStory_PTAS .bgWhite_trans{
+		width: 100%;
+	}*/
+
+	/*.page-header .title {
+	    margin: -4px 0 18px 5px;
+	}*/
+
+	.post-stories > .col-sm-4,.post-stories > .col-sm-8 {
+	   	padding: 0 5px;
+	}
+
+	.icon-search, .inputSearch{
+		display: none;
+	}
+
+	.showU768{
+		display: block;
+	}
+
+	.inputSearchMobile{
+		margin: 25px 0;
+		padding: 0 10px;
+	}
+
+	.inputSearchMobile input{
+		background: url('select2.png') no-repeat 100% -22px, linear-gradient(to bottom, #f5f5f5 85%, #eee 99%) 0 0;
+	}
+
+	.p-x-y_verySmall {
+	    padding: 0;
+	}
+
+	.qf_i {
+	    padding: 20px 15px;
+	}
+}
+
+@media (max-width: 480px) {
+	.wtf::before{
+		top: 0;
+	}
+
+	.wtf {
+	    padding: 130px 0 0 0;
+	}
+
+	.bg-content-about:after {
+	    bottom: -30px;
+	}
+
+	.product {
+	    /*max-width: 227px;*/
+	}
+
+	.video640{
+		max-width: 100%;
+	}
+
+	.gallery-images{
+		width: 100%;
+	}
+
+	.gallery-images img {
+		width: 100%;
+	}
+
+	.gallery-events{
+		width: 100%;
+	}
+
+	#footer .footer-bottom {
+	    margin: 0; 
+	    padding: 20px 0;
+	}
+
+	.imgY {
+	    margin: 0 28%;
+	}
+
+	.slider.rs-slider .description, .tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption{
+		left: 30px !important;
+	}
+
+	.slider.rs-slider .description {
+	    top: 35px !important;
+	    max-width: 41.66666667% !important;
+	}
+
+	.slider.rs-slider .description, .tp-simpleresponsive .caption, .tp-simpleresponsive .tp-caption {
+	    left: 40px !important;
+	}
+
+	.slider.rs-slider .description p {
+	    line-height: 16px;
+	}
+
+	.slider-t {
+	    font-size: 13px !important;
+	    padding: 7px 10px !important;
+	}
+
+	.slider.rs-slider .tparrows{
+		width: 30px !important;
+		height: 30px !important;
+	}
+
+	.slider.rs-slider .tparrows:before{
+		width: 30px !important;
+		margin-top: 0;
+	}
+
+	.tp-leftarrow {
+	    left: 5px !important;
+	}
+
+	.tp-rightarrow {
+	    right: 5px !important;
+	}
+	.slider.rs-slider:after {
+	    bottom: -30px;
+	}
+
+	.bgTesti {
+	    height: 158px;
+	    max-height: 205px;
+	}
+
+	.fileinput-thumbnail{
+		min-height: 100px;
+	}
+
+	.width-50 {
+	    width: 100% !important;
+	}
+
+	.qf_i p{
+		padding: 13% 20px;
+	}
+
+	.ml-15 {
+	    margin-left: 0px;
+	}
+
+	#scar > .ml-15{
+		margin-left: -15px;
+	}
+}
+
+@media (max-width: 360px) {
+	.wtf {
+	    position: relative;
+	}
+
+	.bg-content-about:after{
+		bottom: -28px;
+	}
+
+	.product {
+	    max-width: 163px;
+	}
+
+	.col-sm-4.col-xs-4.imgStories {
+	    width: 100%;
+	    margin-bottom: 15px;
+	}
+
+	.wtf:before{
+		left: 35%;
+	}
+
+	.imgY {
+	    margin: 0 20%;
+	}
+
+	.slider.rs-slider .description {
+	    top: 15px !important;
+	    min-width: 50% !important;
+	}
+
+	.slider.rs-slider:after {
+	    bottom: -28px;
+	}
+
+	.nopadleft {
+	    padding-left: 0;
+	    padding-right: 0;
+	}
+
+	.border480_fileinput {
+	    width: 50%;
+	}
+
+	.bgTesti {
+	    height: 141px;
+	    max-height: 146px;
+	}
+
+	.qf_i p {
+	    padding: 14% 20px;
+	}
+
+	.mt-sm20 {
+	    margin-top: 7px !important;
+	}
+}
+
+@media (max-width: 320px) {
+	.wtf {
+	    position: relative;
+	    padding: 125px 0 0 0;
+	}
+	.product {
+		max-width: 143px;
+	}
+
+	.imgY {
+	    margin: 0 17%;
+	}
+
+	.slider.rs-slider .description {
+	    min-width: 76% !important;
+	}
+
+	.qf_i p {
+	    padding: 12% 20px;
+	}
+
+	.bgTesti {
+	    height: 121px !important;
+	    max-height: 126px !important;
+	}
+}
+
+@media (min-width: 1366px) {
+	.breadcrumb{
+		padding: 10px 5px;
+	}
+}

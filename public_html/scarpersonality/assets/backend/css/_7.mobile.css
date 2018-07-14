@@ -1,0 +1,92 @@
+@media (max-width: 640px){
+    .timeline .item {
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: center !important;
+        padding-bottom: 50px;
+    }
+    .timeline .item:before, .timeline .item:after {
+        left: 0 !important;
+        right: 0 !important;
+        margin: auto;
+    }
+    .timeline .item:after {
+        bottom: -120px;
+    }
+    footer {
+        text-align: center;
+    }
+    footer nav {
+        float: none !important;
+        width: 240px;
+        text-align: center;
+        margin: auto;
+    }
+    .navbar-brand img {
+        height: 40px;
+    }
+    .banner img {
+        margin-right: -35px;
+        margin-top: -40px;
+        margin-bottom: 35px;
+        width: 340px;
+    }
+    .banner {
+        margin-bottom: 40px;
+    }
+    .on-ground {
+        background: #333;
+    }
+    #form form .form-content {
+        min-height: 700px;
+    }
+    #form form .content {
+        min-height: 700px !important;
+    }
+    #form form .actions ul {
+        display: block;
+        border-top: 1px solid #ccc;
+        list-style: none;
+        padding: 50px 0 10px;
+        height: 80px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #form form .steps {
+        width: 130px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: 58px;
+    }
+    .select_city .checkbox {
+        max-width: 205px;
+        margin: auto;
+    }
+    .summary_info .text-left {
+        text-align: center !important;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        background: #ddd;
+    }
+    .banner img {
+        max-width: 80%;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    #tnc ol {
+        padding-left: 10px !important;
+        margin-left: 0 !important;
+    }
+    #tnc ol li {
+        position: relative;
+        padding-top: 20px;
+    }
+    #tnc ol li:before {
+        top: 0;
+        left: 0;
+        font-weight: bold;
+    }
+}

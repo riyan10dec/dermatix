@@ -1,0 +1,59 @@
+#dataGrid .action {
+    display: inline-block !important;
+    padding: 0 5px;
+    font-size: 16px;
+}
+#dataGrid .show {
+    color: #049dfc;
+}
+#dataGrid .show:hover {
+    color: #047acd;
+}
+#dataGrid .modify {
+    color: #ffc106;
+}
+#dataGrid .modify:hover {
+    color: #cd9306;
+}
+#dataGrid .delete {
+    color: #ff382b;
+}
+#dataGrid .delete:hover {
+    color: #cd352b;
+}
+
+.jsgrid input, .jsgrid select {
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.action-bar {
+    margin-bottom: 15px;
+}
+.action-bar .trash {
+    font-size: 30px;
+    line-height: 30px;
+    height: 30px;
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-group label.required {
+    font-size: 1em;
+}
+.slug {
+    display:flex;
+}
+.slug label {
+    margin-top: 5px;
+    background: #ccc;
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin-right: 5px;
+}
+.slug-url {
+    border: 0;
+    width: 100%;
+}

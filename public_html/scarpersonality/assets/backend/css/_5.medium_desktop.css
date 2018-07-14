@@ -1,0 +1,11 @@
+@media (max-width: 1024px){
+	body {
+		background-size: 120%;
+	}
+	nav ul li a, .socmed li a {
+		font-size: 14px;
+	}
+	footer nav {
+		margin-top: 4px;
+	}
+}

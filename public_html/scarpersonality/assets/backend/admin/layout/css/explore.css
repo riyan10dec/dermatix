@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "din";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../../../fonts/ff_din_black-webfont.eot?#iefix") format("embedded-opentype"), url("../../../fonts/ff_din_black-webfont.woff2") format("woff2"), url("../../../fonts/ff_din_black-webfont.woff") format("woff"), url("../../../fonts/ff_din_black-webfont.ttf") format("truetype"), url("../../../fonts/ff_din_black-webfont.svg#din_blackregular") format("svg");
+}
+.no-padding{
+  padding: 0!important;
+}
+.wrap-item-expl{
+  padding: 0!important;
+}
+.wrap-item-expl a img{
+  width: 100%;
+  height:auto;
+  display: block;
+}
+.grey {
+    color: #666666;
+}
+.a-flex {
+    display: block;
+}
+.a-flex:hover .flex {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+.a-flex:hover .flex p > button {
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+.a-flex:hover .flex > h3 {
+    color: #000;
+    margin-top: 0;
+    transition: all 0.3s ease 0s;
+}
+.flex {
+    align-items: center;
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin: auto;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    transition: all 0.5s ease 0s;
+    width: 100%;
+}
+.flex h3 {
+    color: #fff;
+    margin-top: 81px;
+    transition: all 0.3s ease 0s;
+    font-family: "din",sans-serif;
+}
+.flex p > button {
+    opacity: 0;
+    transition: all 0.3s ease 0s;
+}
+.btn-primary {
+    background-color: #fff;
+    border: 10px solid #d71a2c;
+    border-radius: 100%!important;
+    color: #000;
+    height: 90px;
+    line-height: 14px;
+    transition: all 0.3s ease 0s;
+    width: 90px;
+}
+.btn-primary:hover {
+    background-color: #fff;
+    border-color: #fb1b30;
+    color: #000;
+    transition: all 0.3s ease 0s;
+}

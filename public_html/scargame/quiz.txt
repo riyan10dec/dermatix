@@ -1,0 +1,56 @@
+<div class="row ">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+		
+				<div id="quizzie">
+					<div class="quiz-step step1 current bgstep1">
+					
+							step 1
+							<div class="quiz-answer" data-quizIndex="1">jawaban 1</div>
+							<div class="quiz-answer" data-quizIndex="2">jawaban 2</div>
+							<div class="quiz-answer"data-quizIndex="3">jawaban 3</div>
+							<div class="quiz-answer"data-quizIndex="4">jawaban 4</div>
+							<div class="quiz-answer"data-quizIndex="5" >jawaban 5</div>
+							<div class="checkout">checkout</div>
+						
+					</div>
+					<div class="quiz-step step2 bgotherstep">
+						
+						
+							step 2
+							<div class="quiz-answer" data-quizIndex="1">jawaban 1</div>
+							<div class="quiz-answer" data-quizIndex="2">jawaban 2</div>
+							<div class="quiz-answer"data-quizIndex="3">jawaban 3</div>
+							<div class="quiz-answer"data-quizIndex="4">jawaban 4</div>
+							<div class="quiz-answer"data-quizIndex="5" >jawaban 5</div>
+							<div class="checkout">checkout</div>
+						
+						
+					</div>
+					
+					<div class="quiz-step step3 bgotherstep">
+						
+						
+						step 3
+						<div class="quiz-answer" data-quizIndex="1">jawaban 1</div>
+						<div class="quiz-answer" data-quizIndex="2">jawaban 2</div>
+						<div class="quiz-answer"data-quizIndex="3">jawaban 3</div>
+						<div class="quiz-answer"data-quizIndex="4">jawaban 4</div>
+						<div class="quiz-answer"data-quizIndex="5" >jawaban 5</div>
+						<div class="checkout">checkout</div>
+							
+				
+						
+					</div>
+				</div>
+
+				<ul id="results">
+					<li class="results-inner">
+						<p>Your result is:</p>
+						<h1></h1>
+						<p class="desc"></p>
+					</li>
+				</ul>
+
+				
+			</div>
+		</div>
